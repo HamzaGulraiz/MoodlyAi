@@ -1,6 +1,6 @@
 const { execSync } = require('child_process')
 
-const branchPattern = /^(feature|fix|chore|dev)\/[a-zA-Z0-9-_]*$/
+const branchPattern = /^(dev|feature|fix|chore)\/[a-zA-Z0-9-_]*$/
 
 // Get the branch name from the environment
 const branchName = execSync('git rev-parse --abbrev-ref HEAD').toString().trim()
