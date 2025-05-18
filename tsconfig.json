@@ -1,0 +1,30 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-native",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "baseUrl": "src",
+    "module": "ES2015",
+    "esModuleInterop": true,
+    "types": ["react", "node"],
+    "typeRoots": ["node_modules/@types"],
+    "noImplicitAny": true,
+    "paths": {
+      "@src/*": ["./*"],
+      "@components/*": ["./components/*"],
+      "@screens/*": ["./screens/*"],
+      "@navigation/*": ["./navigation/*"],
+      "@constants/*": ["./constants/*"]
+    }
+  },
+  "include": [
+    "src/types/global.d.ts",
+    "App.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.d.ts"
+  ],
+  "exclude": ["node_modules", "**/__test__/*"]
+}

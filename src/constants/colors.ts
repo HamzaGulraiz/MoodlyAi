@@ -1,0 +1,18 @@
+export default {
+  CARD_BACKGROUND: 'rgba(255,255,255,1)',
+  BackGroundGradient: ['#fbc2eb', '#a6c1ee', '#EDF4F4'],
+  LINK_COLOR: '#1ea3b4',
+  BUTTON: '#0096aa',
+  BUTTON_DISABLED: '#afd7e5',
+  BLACK: 'black',
+  WHITE: 'white',
+  APP_BACKGROUND: '#EDF4F4',
+  RED: 'red',
+  PINK: 'pink',
+  YELLOW: '#ffff7f',
+  GREEN: 'green',
+  GREY: 'gray',
+  HEADER: 'blue',
+  TRANSPARENT: 'transparent',
+  BASE_COLOR: '#009236',
+}

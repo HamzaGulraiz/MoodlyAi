@@ -1,0 +1,3 @@
+type IBadgeProps = {
+  count: number
+}
