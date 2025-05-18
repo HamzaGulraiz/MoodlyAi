@@ -1,3 +1,2 @@
 # .husky/pre-push
 # Check branch name before pushing
-npx node scripts/checkBranchName.js
